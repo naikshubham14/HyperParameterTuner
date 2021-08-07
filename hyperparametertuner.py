@@ -29,8 +29,7 @@ In this implementation, the *RandomForestRegressor()* function is used in this a
 st.sidebar.header('Upload your CSV data')
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
 st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
-""")
+Make sure to format your file so that the target/dependent variable is in the last column""")
 
 # Sidebar - Specify parameter settings
 st.sidebar.header('Set Parameters')
